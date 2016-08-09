@@ -3592,6 +3592,8 @@ p.highlight {
 .category-item {
   width: 280px;
   margin-bottom: 40px;
+  margin-left: 0 !important;
+  height: 345px;
 }
 .category-item a {
   text-decoration: none;
