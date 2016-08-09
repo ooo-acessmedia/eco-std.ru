@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="On explicit save action" promptOnRemoteOverwrite="CHECK_CONTENT" serverName="byshen.ru" notifyRemoteChanges="true">
+    <serverData>
+      <paths name="byshen.ru">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/www/eco-std.ru" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/node_modules" />
+            <excludedPath local="true" path="$PROJECT_DIR$/.ftppass" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="sprinthost-01">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/domains/eco-std.ru/public_html" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ON_EXPLICIT_SAVE" />
+  </component>
+</project>

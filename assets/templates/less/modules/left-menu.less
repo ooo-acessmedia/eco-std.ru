@@ -1,0 +1,87 @@
+.left-menu {
+  flex-shrink: 0;
+  width: 285px;
+}
+
+.left-menu-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  .level-01 {
+
+    margin-bottom: 3px;
+
+    > a {
+      padding: 15px;
+      font-size: 14px;
+      color: #ffe000;
+      font-family: @Heavy;
+      text-decoration: none;
+      box-shadow: 0 0 4px 4px #e8e8e8;
+
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+
+      background: url("../../img/left-menu-li-main-bg.png");
+      background-size: 100% 100%;
+
+      img {
+        width: 50px;
+        height: 40px;
+        margin-right: 10px;
+      }
+
+    }
+
+    > ul {
+      display: none;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 32px;
+      position: relative;
+
+    }
+
+    &.active {
+      > ul {
+        display: block;
+      }
+    }
+  }
+
+  .level-02 {
+    padding-left: 23px;
+    background: url("../../img/left-menu-li-inside-bg.png") no-repeat left center;
+
+    > a {
+      display: block;
+      font-size: 12px;
+      font-family: @Heavy;
+      color: #000;
+      text-transform: uppercase;
+      padding: 15px 10px;
+    }
+
+    &.active {
+      > a {
+        background: #ffe000;
+      }
+    }
+  }
+
+  .left-menu-line {
+    height: 50px;
+    width: 1px;
+    background: #000;
+    position: absolute;
+    left: 31px;
+    top: 0;
+  }
+
+
+}

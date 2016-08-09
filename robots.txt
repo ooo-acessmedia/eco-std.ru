@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /manager/
+Disallow: /assets/components/
+Disallow: /core/
+Disallow: /mgr/
+Disallow: /connectors/
+Disallow: /index.php
+Disallow: /service-pages/
+Disallow: *?
+Host: eco-std.ru
+Sitemap: http://eco-std.ru/sitemap.xml

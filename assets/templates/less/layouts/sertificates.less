@@ -1,0 +1,42 @@
+.sertificates-wrap {
+  background: #f1f2f3;
+}
+
+.sertificates {
+  padding-bottom: 60px;
+  position: relative;
+
+  &:after {
+    position: absolute;
+    width: 100%;
+    content: '';
+    background: url("../../img/advantages-shadow-bg.png") no-repeat;
+    height: 33px;
+    left: 0;
+    bottom: -34px;
+  }
+
+  > .title {
+    display: flex;
+    justify-content: center;
+
+    span {
+      font-family: @Black;
+      text-transform: uppercase;
+      font-size: 18px;
+      text-align: center;
+      background: #252628;
+      padding: 15px 25px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      color: white;
+    }
+  }
+
+  > .block {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}

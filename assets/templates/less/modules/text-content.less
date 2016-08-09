@@ -1,0 +1,31 @@
+.text-content {
+
+  font-family: @Regular;
+  font-size: 16px;
+
+  h2 {
+    font-family: @Heavy;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  ul {
+    list-style: none;
+    margin-bottom: 20px;
+
+    li {
+      position: relative;
+      margin-bottom: 10px;
+
+      &:before {
+        content: '';
+        position: absolute;
+        left: -15px;
+        top: 8px;
+        background: url("../../img/text-ul-li-bg.png") no-repeat;
+        width: 8px;
+        height: 8px;
+      }
+    }
+  }
+}
