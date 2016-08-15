@@ -3276,9 +3276,6 @@ p.highlight {
   margin-bottom: 40px;
   float: right;
 }
-.pageid-9 h2 {
-  background: #F9C001;
-}
 /*Layout*/
 /*Modules*/
 .site-callout {
@@ -3839,6 +3836,19 @@ p.highlight {
   font-family: "Lato-Heavy", Arial, Helvetica Neue, Helvetica, sans-serif;
   font-size: 14px;
   text-transform: uppercase;
+  background: #F9C001;
+}
+.text-content h3 {
+  font-family: "Lato-Heavy", Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  background: #F9C001;
+}
+.text-content h4 {
+  font-family: "Lato-Heavy", Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  background: #F9C001;
 }
 .text-content ul {
   list-style: none;
@@ -3857,9 +3867,69 @@ p.highlight {
   width: 8px;
   height: 8px;
 }
+.text-content table td {
+  padding: 5px 10px;
+  text-align: center;
+}
+.text-content table td:first-child {
+  width: 150px;
+}
+.text-content .square-article {
+  padding-left: 30px;
+  position: relative;
+}
+.text-content .square-article:before {
+  content: '';
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 0;
+  top: 4px;
+  border: 4px solid #F9C001;
+}
+.text-content .square-article:nth-child(odd):before {
+  border: 4px solid #3B3B3B;
+}
 .breadcrumb {
   width: 100%;
   margin-left: 0 !important;
+}
+.price-block {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  padding-top: 50px;
+}
+.price-item {
+  width: 40%;
+  margin-bottom: 30px;
+}
+.price-item a {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.price-item .image {
+  margin-right: 20px;
+}
+.price-item .title {
+  font-size: 16px;
+  color: #000;
+}
+.price-table {
+  font-size: 13px;
+}
+.price-table td {
+  padding: 2px !important;
 }
 /*Modules*/
 /*States*/
