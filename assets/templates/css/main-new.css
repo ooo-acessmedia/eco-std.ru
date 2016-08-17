@@ -3644,6 +3644,9 @@ p.highlight {
 .template-03 .category-item:nth-child(2n+2) {
   margin-right: 0;
 }
+.pageid-20 .category-item {
+  height: 285px;
+}
 .site-search {
   display: -webkit-flex;
   display: -ms-flexbox;
