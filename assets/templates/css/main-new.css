@@ -2799,6 +2799,31 @@ p.highlight {
           align-items: flex-start;
   padding-bottom: 40px;
 }
+.site-logo {
+  position: relative;
+}
+.site-logo .img {
+  width: 335px;
+}
+.site-logo .img img {
+  width: 100%;
+}
+.site-logo:hover .site-logo-popup {
+  display: block;
+}
+.site-logo-popup {
+  position: absolute;
+  display: none;
+  left: 98%;
+  top: 120px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 5px;
+  padding: 10px 20px;
+  width: 350px;
+}
+.site-logo-popup span {
+  font-weight: bold;
+}
 .footer-wrap {
   border-bottom: 1px solid #595959;
   background: url("../img/footer-wrap-bg.png");

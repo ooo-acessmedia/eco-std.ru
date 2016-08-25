@@ -13,3 +13,35 @@
   align-items: flex-start;
   padding-bottom: 40px;
 }
+
+.site-logo {
+  position: relative;
+  .img {
+    width: 335px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &:hover {
+    .site-logo-popup {
+      display: block;
+    }
+  }
+}
+
+.site-logo-popup {
+  position: absolute;
+  display: none;
+  left: 98%;
+  top: 120px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 5px;
+  padding: 10px 20px;
+  width: 350px;
+
+  span {
+    font-weight: bold;
+  }
+}
